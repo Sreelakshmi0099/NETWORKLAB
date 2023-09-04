@@ -1,0 +1,8 @@
+echo "Enter the filename1"
+read a
+echo "Enter the filename2"
+read b
+echo "Concate of two file"
+cat $a $b >file10.txt
+cat file10.txt
+
